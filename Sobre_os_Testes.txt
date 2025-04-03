@@ -32,3 +32,7 @@ Teste 3 | Banco de Dados
             O caminho absoluto mencionado por mim anteriormente. Sendo este também, o motivo pelo qual não foi enviado junto do repositório
             Os arquivos baixados no banco de dados.
 
+Teste 4 | Teste de API 
+    - Enfrentei dificuldades para executar o teste 4, pois não consegui adquirir os conhecimentos necessários em tempo hábil. 
+    Pórem, estou disposto estudar mais sobre o assunto para adquirir mais conhecimentos e aumentar minhas capacidades, desde já
+    agradeço o desafio pois me motivou a ampliar meus horizontes e áreas de saberes.
