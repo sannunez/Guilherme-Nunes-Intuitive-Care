@@ -1,0 +1,34 @@
+Segue abaixo minhas observações a respeito dos testes.
+
+Teste 1 & 2 | WebScraping & Transformação de Dados
+
+    Bibliotecas utilizadas:
+        requests → Faz requisições HTTP para obter dados da web.
+
+        BeautifulSoup → Analisa e extrai dados de arquivos HTML e XML.
+
+        os (Operational System) → Manipula arquivos e diretórios no sistema operacional.
+
+        zipfile → Cria e extrai arquivos ZIP.
+
+        pandas → Manipula e analisa dados estruturados (DataFrames e tabelas), incluindo '.csv'.
+
+        tkinter.filedialog → Abre caixas de diálogo para seleção de arquivos.
+
+
+Teste 3 | Banco de Dados
+
+    - Sobre esse teste, estou considerando que os arquivos 'Relatorio.cadop.csv' e os arquivos relativos a 2023/2024
+    Estejam no seguinte path "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads", que se trata do caminho padrão no qual
+    O SQL permite importar dados ja que o software tem um mecanismo de proteção que restringe a este diretorio os arquivos
+    Que podem ter seus dados importados.
+
+    - Também estou considerando que os arquivos estejam distribuidos neste path da seguinte forma:
+    'Relatorio.cadop.csv', esta dentro da pasta Uploads, enquanto os outros arquivos '.csv' referentes aos anos de 2023 e 2024
+    Estejam respectivamente colocados em diretorios apelidados de '2023' e '2024' dentro da pasta Uploads.
+
+    observações: Os dados presentes nos arquivos não foram alterados, logo são os mesmos anexados ao documento de TESTE DE NIVELAMENTO.
+            Como o MySQL não funciona com caminhos de arquivos relativos, apenas absolutos meus scripts onde ocorrem imports utilizam
+            O caminho absoluto mencionado por mim anteriormente. Sendo este também, o motivo pelo qual não foi enviado junto do repositório
+            Os arquivos baixados no banco de dados.
+

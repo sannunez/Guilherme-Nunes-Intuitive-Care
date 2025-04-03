@@ -1,5 +1,5 @@
 -- IMPORTANDO PARA O RELATORIO DE CADASTRO ORIGINAL
-LOAD DATA INFILE "C:\\Users\\sannunez\\Desktop\\Guilherme\\Guilherme-Nunes-Intuitive-Care\\Teste_de_Banco_de_Dados\\Relatorio_cadop.csv" -- LOCAL DADOS CADASTRAIS
+LOAD DATA INFILE "C:\\ProgramData\\MySQL\\MySQL Server 8.0\\Uploads\\Relatorio_cadop.csv" -- LOCAL DADOS CADASTRAIS
 INTO TABLE relatorio_cadop
 FIELDS TERMINATED BY ';'
 ENCLOSED BY '"'

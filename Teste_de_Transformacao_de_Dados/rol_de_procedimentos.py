@@ -1,5 +1,4 @@
 # 2 Teste de Transformação de Dados
-
 # lib's imports
 import pandas as pd
 import tabula as tb

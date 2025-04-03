@@ -18,7 +18,7 @@ CREATE TABLE demonstracoes_contabeis_2023_4_trimestre(
     VL_SALDO_FINAL VARCHAR(15)
 ) ENGINE = InnoDB DEFAULT CHARSET = utf8mb4;
 
-
+--  TABELA RELATIVA AOS DADOS DE 2024
 CREATE TABLE demonstracoes_contabeis_2024(
 	`DATA` DATE,
     REG_ANS INTEGER,	
