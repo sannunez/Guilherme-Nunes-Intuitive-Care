@@ -12,6 +12,7 @@ from tkinter import filedialog
 def criar_dataframe(pdf_caminho, csv_nome, pagina_de_inicio, pagina_de_fim):
     tb.convert_into(f'{pdf_caminho}', f'Teste_de_Transformacao_de_Dados/{csv_nome}.csv', pages = f'{pagina_de_inicio}-{pagina_de_fim}')
     df = f'Teste_de_Transformacao_de_Dados/{csv_nome}.csv'
+
     return df
 
 
